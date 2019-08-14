@@ -303,7 +303,7 @@ Let's take an example for more clarity on using floats and clearfix together.
     content: "";
     display: table;
   }
-  .clearfix {
+  .clearfix:after {
     clear: both;
   }
 ```
@@ -334,7 +334,7 @@ If we have multi-columns in a row instead of floating one element to the left an
     content: "";
     display: table;
   }
-  .clearfix {
+  .clearfix:after {
     clear: both;
   }
 ```
@@ -425,7 +425,7 @@ To create such columns and that can be used again and again we should modular cl
     content: "";
     display: table;
   }
-  .clearfix {
+  .clearfix:after {
     clear: both;
   }
 ```
